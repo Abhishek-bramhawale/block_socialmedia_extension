@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Blocker - Go Study!",
+  "version": "1.0.0",
+  "description": "Blocks distracting sites and tells you to go study.",
+  "permissions": ["scripting"],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.youtube.com/*",
+        "*://*.facebook.com/*"
+        
+      ],
+      "js": ["contentScript.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "icons": {
+    "48": "favicon.ico"
+  }
+} 
