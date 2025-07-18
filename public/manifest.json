@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "YouTube Blocker - Go Study!",
+  "name": "social media sites blocker",
   "version": "1.0.0",
-  "description": "Blocks distracting sites and tells you to go study.",
+  "description": "Blocks distracting sites",
   "permissions": ["scripting"],
   "web_accessible_resources": [{
     "resources": ["img.gif"],
