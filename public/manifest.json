@@ -4,6 +4,10 @@
   "version": "1.0.0",
   "description": "Blocks distracting sites and tells you to go study.",
   "permissions": ["scripting"],
+  "web_accessible_resources": [{
+    "resources": ["img.gif"],
+    "matches": ["<all_urls>"]
+  }],
   "content_scripts": [
     {
       "matches": [
