@@ -8,8 +8,26 @@
     {
       "matches": [
         "*://*.youtube.com/*",
-        "*://*.facebook.com/*"
-        
+        "*://*.medium.com/*",
+        "*://*.quora.com/*",
+        "*://*.reddit.com/*",
+        "*://*.mxplayer.in/*",
+        "*://*.zee5.com/*",
+        "*://*.jiocinema.com/*",
+        "*://*.voot.com/*",
+        "*://*.sonyliv.com/*",
+        "*://*.netflix.com/*",
+        "*://*.primevideo.com/*",
+        "*://*.amazon.com/*",
+        "*://*.hotstar.com/*",
+        "*://*.discord.com/*",
+        "*://*.telegram.org/*",
+        "*://*.facebook.com/*",
+        "*://*.instagram.com/*",
+        "*://*.twitter.com/*",
+        "*://*.x.com/*",
+        "*://*.tiktok.com/*",
+        "*://*.snapchat.com/*"
       ],
       "js": ["contentScript.js"],
       "run_at": "document_start"
